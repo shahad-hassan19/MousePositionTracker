@@ -60,7 +60,7 @@ const PointMouseTracker = withMousePosition(PointMouseLogger)
 function App(){
   return(
     <div className='App'>
-      <header className='Header'>Little Lemon Restaurent</header>
+      <header className='Header'>Mouse Position Tracker</header>
       <div className='renderF'>
         <PanelMouseTracker />
         <PointMouseTracker />
